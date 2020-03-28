@@ -35,7 +35,7 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 # set :linked_files, %w{config/database.yml}
 # set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 #
-set :linked_dirs, fetch(:linked_dirs, []).push('public/system').push('public/ckeditor_assets')
+set :linked_dirs, fetch(:linked_dirs, []).push('public/system').push('public/ckeditor_assets').push('public/packs').push('node_modules')
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
@@ -96,3 +96,5 @@ end
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
 # kill -s SIGTERM pid   # Stop puma
+
+after 'deploy:updated', 'webpacker:precompile'
