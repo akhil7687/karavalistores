@@ -37,6 +37,8 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 #
 set :linked_dirs, fetch(:linked_dirs, []).push('public/system').push('public/ckeditor_assets').push('public/packs').push('node_modules')
 
+append :rbenv_map_bins, 'puma', 'pumactl'
+
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
   task :make_dirs do
