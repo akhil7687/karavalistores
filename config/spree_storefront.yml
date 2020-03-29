@@ -1,143 +1,149 @@
 default:
   navigation:
-    - title: Spices & Masala
+    - title: Spices
       subtitle: Categories
-      url: /t/women
+      url: /t/spices
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Grounded Spices
+          :url: /t/spices/grounded
+        - :title: Whole Spices
+          :url: /t/spices/whole
+        - :title: Raw Spices
+          :url: /t/spices/raw
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-first-category.jpg'
+        - subtitle: 100% Organic
+          title: Fine Grounded Spices
+          url: #
+          image: 'store/ground_spices.jpg'
+        - subtitle: Home Made With care
+          title: Whole Spices
+          url: #
+          image: 'store/whole_spices.jpg'
     - title: Groceries
       subtitle: Categories
-      url: /t/men
+      url: /t/groceries
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Honey
+          :url: /t/groceries/honey
+        - :title: Dry Fruits
+          :url: /t/groceries/dryfruits
+        - :title: Jaggery
+          :url: /t/groceries/jaggery
+        - :title: Pickle
+          :url: /t/groceries/pickel
+        - :title: Chutney Powder
+          :url: /t/groceries/chutneypowder
+        - :title: Pulses
+          :url: /t/groceries/pulses
+        - :title: Vinegars
+          :url: /t/groceries/vinegars
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-second-category.jpg'
+        - subtitle: Fresh from hive
+          title: Wild Honey
+          url: #
+          image: 'store/honey.jpg'
+        - subtitle: Quality Assured
+          title: Selected Dry Fruits
+          url: #
+          image: 'store/dry_fruits.jpg'
     - title: Oil & Ghee
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/oilnghee
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Coconut Oil
+          :url: /t/oilnghee/coconut
+        - :title: Groundnut Oil
+          :url: /t/oilnghee/groundnut
+        - :title: Desi Ghee
+          :url: /t/oilnghee/desighee
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Pure from farm
+          title: Virigin Coconut Oil
+          url: #
+          image: 'store/coconut.jpg'
+        - subtitle: 100% Pure & Aromatic
+          title: Desi Cow Ghee
+          url: #
+          image: 'store/ghee.jpg'
     - title: Beverages
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/beverages
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Juices
+          :url: /t/beverages/juices
+        - :title: Homemade Wine
+          :url: /t/beverages/wine
+        - :title: Herbal Tea
+          :url: /t/beverages/herbaltea
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Tasty and Healthy
+          title: Kokum Extract Juice
+          url: #
+          image: 'store/kokum.jpg'
+        - subtitle: Home made
+          title: Wine From Fruits
+          url: #
+          image: 'store/wine.jpg'
     - title: Snacks
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/snacks
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Cookies
+          :url: /t/snacks/cookies
+        - :title: Papad
+          :url: /t/snacks/papad
+        - :title: Jam
+          :url: /t/snacks/jam
+        - :title: Chocolate
+          :url: /t/snacks/chocolate
+        - :title: snacks
+          :url: /t/snacks/snacks
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Made with love
+          title: Jackfruit Papad
+          url: #
+          image: 'store/papd.jpg'
+        - subtitle: Home made sweet
+          title: Dark Chocolates
+          url: #
+          image: 'store/chocolate.jpg'
     - title: Personal Care
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/personalcare
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Oils
+          :url: /t/personalcare/oils
+        - :title: Tonics
+          :url: /t/personalcare/tonics
+        - :title: Ayurvedic
+          :url: /t/personalcare/ayurvedic
+        - :title: Baby care
+          :url: /t/personalcare/babycare
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Healthy Extracts
+          title: Essential Oils
+          url: #
+          image: 'store/ayu1.jpg'
+        - subtitle: From the nature
+          title: Ayurvedic Medicines
+          url: #
+          image: 'store/ayurvedic.jpg'
     - title: Households
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/households
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Kitchen Items
+          :url: /t/households/kitchen
+        - :title: Cutlery
+          :url: /t/households/cutlery
+        - :title: Agri
+          :url: /t/housholds/agri
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Strong and durable
+          title: Kitchen Utensils
+          url: #
+          image: 'store/pot.jpg'
+        - subtitle: Eco Friendly
+          title: Recyclable Plates, Pots
+          url: #
+          image: 'store/plate.jpg'
